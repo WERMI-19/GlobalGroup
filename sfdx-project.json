@@ -7,6 +7,6 @@
   ],
   "name": "GlobalGroup",
   "namespace": "",
-  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sfdcLoginUrl": "https://empathetic-impala-awm19e-dev-ed.trailblaze.my.salesforce.com",
   "sourceApiVersion": "64.0"
 }
