@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label>Trip</label>
-    <pluralLabel>Trips</pluralLabel>
+    <label>Voyage</label>
+    <pluralLabel>Voyages</pluralLabel>
     <nameField>
         <fullName>Trip_Name__c</fullName>
         <displayFormat>TRIP-{0000}</displayFormat>
