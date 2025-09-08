@@ -32,7 +32,7 @@ private class OpportunityTriggerHandlerTest {
         System.assertEquals(1, createdTrips.size(), 'Un seul voyage aurait dû être créé.');
     }
 
-    // ================= NOUVEAUX TESTS POUR LA VALIDATION (GGT-03 sur Opp) =================
+    //  NOUVEAUX TESTS POUR LA VALIDATION (GGT-03 sur Opp) 
 
     @isTest
     static void testDateValidation_PositiveScenario() {

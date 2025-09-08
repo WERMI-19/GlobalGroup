@@ -28,7 +28,7 @@ public class CancelTripsBatch implements Database.Batchable<sObject> {
     }
 
     /**
-     * @description Méthode Finish : exécutée une fois que tous les lots sont terminés.
+     * @description Méthode Finish : tous les lots sont terminés.
      */
     public void finish(Database.BatchableContext bc) {
         System.debug('Batch CancelTripsBatch terminé avec succès.');

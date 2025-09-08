@@ -1,15 +1,15 @@
 /**
- * @description Planifie l'exécution quotidienne du batch CancelTripsBatch.
+ * @description Planifie l'exécution quotidienne du batch UpdateTripStatusBatch.
  */
-public class ScheduleCancelTripsBatch implements Schedulable {
+public class ScheduleUpdateTripStatusBatch implements Schedulable {
 
     /**
      * @description Méthode execute qui est appelée par le planificateur de Salesforce.
      * @param sc Contexte de la planification.
      */
     public void execute(SchedulableContext sc) {
-        //  instance du batch
-        CancelTripsBatch batch = new CancelTripsBatch();
+        // instance du batch
+        UpdateTripStatusBatch batch = new UpdateTripStatusBatch();
         Database.executeBatch(batch);
     }
 }

@@ -31,14 +31,14 @@ private class TripTriggerHandlerTest {
         );
 
         Test.startTest();
-        // Action : On essaie d'insérer le voyage, on s'attend à une erreur
+        // Action : essayer d'insérer le voyage,=> erreur
         try {
             insert invalidTrip;
             // Si le code arrive ici, le test a échoué car aucune erreur n'a été levée.
             System.assert(false, 'Une DmlException était attendue car les dates sont invalides.');
         } catch (DmlException e) {
             // Vérification : L'erreur a bien été attrapée !
-            // On vérifie que le message d'erreur est bien celui que nous avons défini.
+            // vérifier si le message d'erreur est bien celui que nous avons défini.
             System.assert(e.getMessage().contains('La date de fin doit être postérieure à la date de début.'),
                 'Le message d\'erreur ne correspond pas à celui attendu.');
         }
