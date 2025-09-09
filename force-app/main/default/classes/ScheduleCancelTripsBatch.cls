@@ -1,5 +1,6 @@
 /**
  * @description Planifie l'exécution quotidienne du batch CancelTripsBatch.
+ * Cron : Tous les jours à 2h du matin => 0 0 2 * * ?
  */
 public class ScheduleCancelTripsBatch implements Schedulable {
 

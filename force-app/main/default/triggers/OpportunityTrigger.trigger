@@ -10,7 +10,6 @@ trigger OpportunityTrigger on Opportunity (before insert, before update, after u
     
     // Événement APRÈS la sauvegarde : pour la création d'enregistrements liés
     if (Trigger.isAfter && Trigger.isUpdate) {
-        // Renommée pour plus de clarté, mais fait la même chose qu'avant
         OpportunityTriggerHandler.handleTripCreation(Trigger.new, Trigger.oldMap);
     }
 }

@@ -1,5 +1,6 @@
 /**
  * @description Planifie l'exécution quotidienne du batch UpdateTripStatusBatch.
+ * Cron : Tous les jours à 3h du matin => 0 0 2 * * ?
  */
 public class ScheduleUpdateTripStatusBatch implements Schedulable {
 

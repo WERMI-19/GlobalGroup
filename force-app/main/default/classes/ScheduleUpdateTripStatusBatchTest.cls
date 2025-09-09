@@ -3,7 +3,7 @@ private class ScheduleUpdateTripStatusBatchTest {
 
     @isTest
     static void testSchedulerExecution() {
-        // Test minimaliste sans données complexes
+        // Test sans données complexes
         Test.startTest();
         
         ScheduleUpdateTripStatusBatch scheduler = new ScheduleUpdateTripStatusBatch();
