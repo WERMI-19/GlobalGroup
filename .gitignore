@@ -6,7 +6,8 @@
 .sf/
 .sfdx/
 .localdevserver/
-deploy-options.json
+.deploy-options.json
+.vscode
 
 # LWC VSCode autocomplete
 **/lwc/jsconfig.json
